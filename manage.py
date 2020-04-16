@@ -2,7 +2,14 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+#pip install django
+#pip install django=1.0.0
+#django-admin startproject mysite
+#python manage.py startapp polls
+#python manage.py runserver
+#python manage.py runserver <port>
+#python manage.py migrate
+#python manage.py createsuperuser
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoempty.settings')
